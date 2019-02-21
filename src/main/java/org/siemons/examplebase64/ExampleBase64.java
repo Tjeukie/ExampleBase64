@@ -5,7 +5,7 @@ import java.util.Base64;
 public class ExampleBase64 {
     
     public static void main(String[] args) {
-        String code = "Hi die Tjeu";
+        String code = "Hi Tjeu";
         System.out.println("Before encoding: " + code);
         
         byte[] encodedBytes = Base64.getEncoder().encode(code.getBytes());
